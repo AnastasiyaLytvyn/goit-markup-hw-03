@@ -1,0 +1,249 @@
+:root {
+    --primary-text-color:#757575;
+    --primary-white-color: #FFFFFF;
+    --title-text-color: #212121;
+    --primary-bg-color: #E5E5E5;
+    --accent-color: #2196F3;
+    --secondary-text-color: rgba(255, 255, 255, 0.6);
+    --backlights: rgb(62, 0, 128);
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
+}
+.list{
+    list-style: none;
+}
+
+/* header */
+.header {
+    width: 1600px;
+
+    background: var(--primary-white-color);
+}
+
+/* logo */
+.logo {
+    color: #2196F3;
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+
+    text-decoration: none;
+}
+.accent {
+    color: var(--title-text-color);
+}
+
+/* site-nav */
+.site-nav-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.site-nav .link-current {
+    color: var(--accent-color);
+
+    text-decoration: none;
+}
+.site-nav .link-current:hover,
+.site-nav .link-current:focus {
+    color: var(--accent-color);
+}
+.site-nav .link {
+    color: var(--title-text-color);
+
+    text-decoration: none;
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* contact */
+.contact-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.contact-list .mail,
+.contact-list .tel {
+    color: var(--primary-text-color);
+
+    text-decoration: none;
+}
+.contact-list .mail:hover,
+.contact-list .mail:focus {
+    color: var(--accent-color);
+}
+.contact-list .tel:hover,
+.contact-list .tel:focus {
+    color: var(--accent-color);
+}
+
+/* hero */
+.hero-title {
+    color: var(--primary-white-color);
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* button */
+.hero-button {
+    background-color: var(--accent-color);
+    color: var(--primary-bg-color);
+
+    font-family: inherit; 
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+}
+
+/* benefits */
+.benefits-title {
+    color: var(--title-text-color);
+
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/* features */
+.features-title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.features-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* team */
+.team-title {
+    color: var(--title-text-color);
+        
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+.team .name {
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.team .position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/* footer */
+.footer {
+    background: #2F303A
+}
+
+/* adress */
+.accents {
+    color: var(--primary-white-color);
+}
+.adress {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.adress .adressa {
+    color: var(--primary-white-color);
+    font-style: normal;
+
+    text-decoration: none;
+}
+.adress .adressa:hover,
+.adress .adressa:focus {
+    color: var(--accent-color);
+}
+.adress .mail {
+    color: var(--secondary-text-color);
+    font-style: normal;
+
+    text-decoration: none;
+}
+.adress .mail:hover,
+.adress .mail:focus {
+    color: var(--accent-color);
+}
+.adress .tel {
+    color: var(--secondary-text-color);
+    font-style: normal;
+
+    text-decoration: none;
+}
+.adress .tel:hover,
+.adress .tel:focus {
+    color: var(--accent-color);
+}
+
+/* portfolio */
+
+/* work */
+.work-item {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+    
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+    
+.work-item:hover,
+.work-item:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}  
+.work .variant {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+/* examples */
+.examples-title{
+    color: var(--title-text-color);
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.examples-name {
+    color: var(--primary-text-color);
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+/* колір основного тексту #212121 */
+/* вторинний колір #757575 */
+/* додатковий колір rgba(255, 255, 255, 0.6) */
+/* білий колір #FFFFFF */
+/* акцент #2196F3 */
+
+/* колір фону #E5E5E5 */
