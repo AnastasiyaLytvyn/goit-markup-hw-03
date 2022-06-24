@@ -18,10 +18,8 @@ html {
 }
 
 body {
-    background-color: var(--primary-bg-color);
+    
     color: var(--primary-text-color);
-    width: 1600px;
-
     font-family: Roboto, sans-serif;
 }
 .list{
@@ -92,12 +90,15 @@ h1,h2,h3,h4,h5,h6,p,ul {
     font-size: 14px;
     line-height: 1.14;
 }
+.site-nav-header {
+    display: inline-block;
+}
 .site-nav-item:not(:last-child) {
     margin-right: 50px;
 
 }
 
-.site-nav-item {
+.site-nav-header {
     padding-top: 32px;
     padding-bottom: 32px;
     margin: 0;
@@ -163,7 +164,9 @@ h1,h2,h3,h4,h5,h6,p,ul {
 /* hero */
 .hero-title {
     align-content: center;
-    margin: 200px 452px 15px;
+    margin: 0;
+    
+    padding-bottom: 30px;
 
     color: var(--primary-white-color);
 
@@ -174,11 +177,16 @@ h1,h2,h3,h4,h5,h6,p,ul {
     text-align: center;
     text-transform: uppercase;
 }
+.hero-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
 
 /* button */
 
 .hero-button {
-    margin: 15px 700px 200px;
+    display: block;
+    margin: 0 auto;
     padding: 10px 32px;
     border: 0ch;
     border-radius: 4px;
@@ -192,6 +200,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
     line-height: 1.88;
     text-align: center;
 }
+
 
 /* section */
 .section {
@@ -228,6 +237,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .visually-hidden {
     position: absolute;
@@ -244,6 +254,11 @@ h1,h2,h3,h4,h5,h6,p,ul {
 }
 
 /* benefits */
+.benefits-section {
+    padding-top: 0;
+    padding-bottom: 94px;
+    margin: 0;
+}
 .benefits-title {
     margin-bottom: 50px;
     color: var(--title-text-color);
@@ -282,10 +297,11 @@ h1,h2,h3,h4,h5,h6,p,ul {
 .team-list-item:not(:last-child) {
     margin-right: 30px;
 }
-.team-img {
-    margin-bottom: 30px;
-
+.team-section-title{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+
 .team .name {
     margin-bottom: 10px;
     text-align: center;
@@ -303,8 +319,11 @@ h1,h2,h3,h4,h5,h6,p,ul {
 }
 
 /* footer */
-.footer {
-    background: #2F303A
+.footer-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0;
+    background-color: #2F303A; 
 }
 
 /* adress */
@@ -369,10 +388,14 @@ h1,h2,h3,h4,h5,h6,p,ul {
 /* portfolio */
 
 /* work */
+.work-section {
+    padding-top: 94px;
+    margin: 0;
+}
 .work-list {
     display: flex;
     justify-content: center;
-    margin: 0;
+    margin-bottom: 50px;
     padding: 0;
     
 }
@@ -381,8 +404,6 @@ h1,h2,h3,h4,h5,h6,p,ul {
 }
 .work-btn {
     
-    margin-top: 94px;
-    margin-bottom: 50px;
     padding: 6px 22px;
 
     border: 0ch;
@@ -409,7 +430,8 @@ h1,h2,h3,h4,h5,h6,p,ul {
 
 /* examples */
 .examples-section {
-    padding-bottom: 94px;
+    padding-bottom: 114px;
+    margin: 0;
 }
 .examples-list {
     display: flex;
@@ -421,10 +443,11 @@ h1,h2,h3,h4,h5,h6,p,ul {
     padding: 0;
 }
 
-.examples-img {
-    margin-bottom: 20px;
+.examples-title-list {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
 }
-
 .examples-title{
     margin-bottom: 4px;
     color: var(--title-text-color);
