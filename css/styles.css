@@ -39,6 +39,11 @@ h1,h2,h3,h4,h5,h6,p,ul {
     
     margin: 0;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 /* header */
 
 .header-container {
@@ -162,11 +167,14 @@ h1,h2,h3,h4,h5,h6,p,ul {
 }
 
 /* hero */
+.hero-section {
+    background-color: #2F303A;
+}
 .hero-title {
     align-content: center;
     margin: 0;
     
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 
     color: var(--primary-white-color);
 
@@ -300,6 +308,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
 .team-section-title{
     padding-top: 30px;
     padding-bottom: 30px;
+    border: 1px solid #EEEEEE;
 }
 
 .team .name {
@@ -390,6 +399,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
 /* work */
 .work-section {
     padding-top: 94px;
+    padding-bottom: 114px;
     margin: 0;
 }
 .work-list {
@@ -429,10 +439,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
 }
 
 /* examples */
-.examples-section {
-    padding-bottom: 114px;
-    margin: 0;
-}
+
 .examples-list {
     display: flex;
     flex-wrap: wrap;
@@ -446,7 +453,12 @@ h1,h2,h3,h4,h5,h6,p,ul {
 .examples-title-list {
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
     margin: 0;
+    border: 1px solid #EEEEEE;
+       
+    
 }
 .examples-title{
     margin-bottom: 4px;
